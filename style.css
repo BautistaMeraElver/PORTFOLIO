@@ -1,0 +1,153 @@
+
+/* Body */
+body {
+    background-color: #486590;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #385c7b, #00f2fe);
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+
+
+/* Navigation */
+nav {
+    background-color: #222;
+    text-align: center;
+    padding: 12px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #4facfe;
+}
+
+/* Sections */
+section {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 25px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+section h2 {
+    margin-bottom: 15px;
+    color: #4facfe;
+}
+
+/* Skills List */
+#skills ul {
+    list-style: none;
+}
+
+#skills li {
+    background: #eef6ff;
+    margin: 8px 0;
+    padding: 10px;
+    border-left: 4px solid #4facfe;
+    border-radius: 5px;
+}
+
+/* Projects */
+#projects ul {
+    list-style: none;
+}
+
+#projects li {
+    background: #f9f9f9;
+    margin: 10px 0;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    }
+    
+    
+#contacts li {
+    background: #eef6ff;
+    margin: 8px 0;
+    padding: 10px;
+    border-left: 4px solid #4facfe;
+    border-radius: 5px;
+}
+    
+
+
+/* Form */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input,
+form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+form input:focus,
+form textarea:focus {
+    outline: none;
+    border-color: #4facfe;
+}
+
+/* Submit Button */
+form input[type="submit"] {
+    background: #4facfe;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+form input[type="submit"]:hover {
+    background: #00c6ff;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #222;
+    color: white;
+    margin-top: 40px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 8px;
+    }
+
+    section {
+        margin: 20px;
+    }
+}
